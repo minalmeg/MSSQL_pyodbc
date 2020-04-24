@@ -9,8 +9,8 @@ ps - follow the optional instructions too!
 
 Step 2 : 
 Install freeTDS, pyodbc and sqlalchemy - 
-sudo apt-get install freetds-dev freetds-bin unixodbc-dev tdsodbc
-pip install pyodbc sqlalchemy
+	sudo apt-get install freetds-dev freetds-bin unixodbc-dev tdsodbc
+	pip install pyodbc sqlalchemy
 
 Step 3 : 
 Change your odbcinst.ini file in your /etc folder -

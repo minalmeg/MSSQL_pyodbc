@@ -23,7 +23,8 @@ Change your odbcinst.ini file in your /etc folder -
 	Description=FreeTDS Driver
 	Driver=/usr/lib/x86_64-linux-gnu/odbc/libtdsodbc.so
 	Setup=/usr/lib/x86_64-linux-gnu/odbc/libtdsS.so
-	Count =
+	CPTimeout=
+	CPReuse=
 	Usuage = 1
 -Open terminal in /etc and use the command -
 
@@ -34,5 +35,7 @@ Change your odbcinst.ini file in your /etc folder -
 
 Step 4 :
 Run the python program!
+
+Refer the attached odbcinst.ini, odbc.ini, odbc.dsn files and make changes accordingly.
 
 
